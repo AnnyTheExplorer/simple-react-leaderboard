@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+.home {
+  background-color: white;
+  padding: 20px;
+  padding-bottom: 100px;
+}
+.details {
+  text-align: center;
+}
+.home .details:hover {
+  background-color: lightcoral;
+  transition: 0.3s all;
+  cursor: pointer;
+  color: white;
+}
+.table .position,
+.details {
+  padding-right: 100px;
+  padding-bottom: 20px;
+}
+.table .description th {
+  padding-right: 100px;
+  padding-bottom: 30px;
+}
+.content {
+  overflow: auto;
+}
+
+.home .content .col-md-3 {
+  border: 2px solid white;
+}
